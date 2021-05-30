@@ -1,6 +1,6 @@
 @echo off
 NET SESSION >nul 2>&1 && goto noUAC
-title.
+title Kaspersky Trial Resetter 
 set n=%0 %*
 set n=%n:"=" ^& Chr(34) ^& "%
 echo Set objShell = CreateObject("Shell.Application")>"%tmp%\cmdUAC.vbs"
